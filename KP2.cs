@@ -48,5 +48,18 @@ public class Program {
     {
       Console.WriteLine("NIE");
     }
+    // zadanie 5
+    Console.WriteLine("Wprowadź 3 liczby");
+    int a5 = int.Parse(Console.ReadLine());
+    int b5 = int.Parse(Console.ReadLine());
+    int c5 = int.Parse(Console.ReadLine());
+    if (a5 < c5 && c5 < b5 || a5 > c5 && c5 > b5)
+    {
+      Console.WriteLine("TAK");
+    }
+    else
+    {
+      Console.WriteLine("NIE");
+    }
   }
 }
