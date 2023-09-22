@@ -36,5 +36,17 @@ public class Program {
     {
       Console.WriteLine("NIE");
     }
+    // zadanie 4
+    Console.WriteLine("Wprowadź wagę ciężarówki(w kilogramach):");
+    int waga = int.Parse(Console.ReadLine());
+    int limit = 20000;
+    if (waga <= limit)
+    {
+      Console.WriteLine("TAK");
+    }
+    else
+    {
+      Console.WriteLine("NIE");
+    }
   }
 }
