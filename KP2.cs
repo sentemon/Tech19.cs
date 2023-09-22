@@ -8,11 +8,11 @@ public class Program {
     int a1 = int.Parse(Console.ReadLine());
     if (a1 % 3 == 0)
     {
-      Console.WriteLine("Liczba " + a1 + " jest podzilna przez 3");
+      Console.WriteLine("TAK");
     }
     else
     {
-     Console.WriteLine("Liczba " + a1 + " nie jest podzilna przez 3"); 
+     Console.WriteLine("NIE"); 
     }
   }
 }
