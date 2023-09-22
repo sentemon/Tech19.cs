@@ -17,7 +17,7 @@ public class Program {
     // zadanie 2
     Console.WriteLine("Wprowadź liczbę:");
     int a2 = int.Parse(Console.ReadLine());
-    if (a2 >= 100 && a <= 999 && a % 17 == 0)
+    if (a2 >= 100 && a2 <= 999 && a2 % 17 == 0)
     {
       Console.WriteLine("TAK");
     }
