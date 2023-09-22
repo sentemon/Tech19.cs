@@ -25,5 +25,16 @@ public class Program {
     {
       Console.WriteLine("NIE");
     }
+    // zadanie 3
+    Console.WriteLine("Wprowadź swój wiek");
+    int wiek = int.Parse(Console.ReadLine());
+    if (wiek >= 18)
+    {
+      Console.WriteLine("TAK");
+    }
+    else
+    {
+      Console.WriteLine("NIE");
+    }
   }
 }
