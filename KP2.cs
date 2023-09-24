@@ -72,5 +72,17 @@ public class Program {
     {
         Console.WriteLine("NIE");
     }
+    // zadanie 7
+    int p7 = int.Parse(Console.ReadLine());
+    int k7 = int.Parse(Console.ReadLine());
+    int s7 = int.Parse(Console.ReadLine());
+    if (p7 + 3 * s7 >= k7)
+    {
+        Console.WriteLine("TAK");
+    }
+    else
+    {
+        Console.WriteLine("NIE");
+    }
   }
 }
