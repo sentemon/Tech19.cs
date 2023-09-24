@@ -61,5 +61,16 @@ public class Program {
     {
       Console.WriteLine("NIE");
     }
+    // zadanie 6
+    int a6 = int.Parse(Console.ReadLine());
+    int p6 = int.Parse(Console.ReadLine());
+    if (Math.Pow(a6, p6) % p == a6)
+    {
+        Console.WriteLine("TAK");
+    }
+    else
+    {
+        Console.WriteLine("NIE");
+    }
   }
 }
