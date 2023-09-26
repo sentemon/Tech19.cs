@@ -84,5 +84,7 @@ public class Program {
     {
         Console.WriteLine("NIE");
     }
+    // zadanie dodatkowe
+    
   }
 }
