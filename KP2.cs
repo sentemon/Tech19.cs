@@ -74,6 +74,7 @@ public class Program {
         Console.WriteLine("NIE");
     }
     // zadanie 7
+    Console.WriteLine("Wprowadź 3 liczby");
     int p7 = int.Parse(Console.ReadLine());
     int k7 = int.Parse(Console.ReadLine());
     int s7 = int.Parse(Console.ReadLine());
