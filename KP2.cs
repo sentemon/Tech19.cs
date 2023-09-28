@@ -62,6 +62,7 @@ public class Program {
       Console.WriteLine("NIE");
     }
     // zadanie 6
+    Console.WriteLine("Wprowadź 2 liczby");
     int a6 = int.Parse(Console.ReadLine());
     int p6 = int.Parse(Console.ReadLine());
     if (Math.Pow(a6, p6) % p == a6)
