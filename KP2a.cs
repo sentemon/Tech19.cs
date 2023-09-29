@@ -3,6 +3,7 @@ using System;
 public class Program {
 
   public static void Main(string[] args) {
+    
     // zadanie 1
     Console.WriteLine("Wprowadź dwie liczby: ");
     int a1 = int.Parse(Console.ReadLine());
@@ -22,7 +23,7 @@ public class Program {
     double a2 = double.Parse(Console.ReadLine());
     double b2 = double.Parse(Console.ReadLine());
 
-    if (Math.Pow(a2 + b2, 2) >= 4 * a2 * b2)
+    if ((a2 + b2) / 2 > Math.Sqrt(a2 * b2))
     {
       Console.WriteLine("TAK");
     }
@@ -30,5 +31,7 @@ public class Program {
     {
       Console.WriteLine("NIE");
     }
+
+    // zadanie 3
   }
 }
