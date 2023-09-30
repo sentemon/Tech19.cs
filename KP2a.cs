@@ -6,7 +6,11 @@ public class Program {
     
     // zadanie 1
     Console.WriteLine("Wprowadź dwie liczby: ");
+
+    Console.Write("Podaj pierwszą liczbę: ");
     int a1 = int.Parse(Console.ReadLine());
+
+    Console.Write("Podaj drugą liczbę: ");
     int b1 = int.Parse(Console.ReadLine());
 
     if ((a1 + b1) % 2 == 0)
@@ -20,7 +24,11 @@ public class Program {
     
     // zadanie 2
     Console.WriteLine("Wprowadź dwie liczby: ");
+
+    Console.Write("Podaj pierwszą liczbę: ");
     double a2 = double.Parse(Console.ReadLine());
+
+    Console.Write("Podaj drugą liczbę: ");
     double b2 = double.Parse(Console.ReadLine());
 
     if ((a2 + b2) / 2 > Math.Sqrt(a2 * b2))
@@ -34,8 +42,14 @@ public class Program {
 
     // zadanie 3
     Console.WriteLine("Wprowadź trzy liczby: ");
+
+    Console.Write("Podaj pierwszą liczbę: ");
     int k = int.Parse(Console.ReadLine());
+    
+    Console.Write("Podaj drugą liczbę: ");
     int l = int.Parse(Console.ReadLine());
+
+    Console.Write("Podaj trzecią liczbę: ");
     int m = int.Parse(Console.ReadLine());
 
     if (k == l)
@@ -60,16 +74,26 @@ public class Program {
 
     // zadanie 4
     Console.WriteLine("Wprowadź cztery liczby: ");
+
+    Console.Write("Podaj pierwszą liczbę: ");
     int number1 = int.Parse(Console.ReadLine());
+    
+    Console.Write("Podaj drugą liczbę: ");
     int number2 = int.Parse(Console.ReadLine());
+
+    Console.Write("Podaj drugą liczbę: ");
     int number3 = int.Parse(Console.ReadLine());
+
+    Console.Write("Podaj czwartą liczbę: ");
     int number4 = int.Parse(Console.ReadLine());
 
-    int minNumber = Math.Min(Math.Min(number1, number2), Math.Min(number3, number4));
+    int minNumber = Math.Min(Math.Min(number1, number2), Math.Min(number3, number4)); // sprawdzenie najmniejszej liczby
 
     Console.WriteLine("Najmniejsza liczba z podanych: " + minNumber);
 
     // zadanie 5
+    Console.WriteLine("Wprowadź trzy liczby: ");
+    
     Console.Write("Podaj pierwszą liczbę: ");
     double a = Convert.ToDouble(Console.ReadLine());
 
