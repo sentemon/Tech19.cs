@@ -33,5 +33,31 @@ public class Program {
     }
 
     // zadanie 3
+    Console.WriteLine("Wprowadź trzy liczby: ");
+    int k = int.Parse(Console.ReadLine());
+    int l = int.Parse(Console.ReadLine());
+    int m = int.Parse(Console.ReadLine());
+
+    if (k == l)
+    {
+      Console.WriteLine("TAK " + k + " = " + l);
+    }
+    
+    else if (k == m)
+    {
+      Console.WriteLine("TAK " + k + " = " + m);
+    }
+
+    else if (l == m)
+    {
+      Console.WriteLine("TAK " + l + " = " + m);
+    }
+    
+    else
+    {
+      Console.WriteLine("NIE");
+    }
+
+    // zadanie 4
   }
 }
