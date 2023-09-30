@@ -95,16 +95,16 @@ public class Program {
     Console.WriteLine("Wprowadź trzy liczby: ");
     
     Console.Write("Podaj pierwszą liczbę: ");
-    double a = Convert.ToDouble(Console.ReadLine());
+    double a5 = double.Parse(Console.ReadLine());
 
     Console.Write("Podaj drugą liczbę: ");
-    double b = Convert.ToDouble(Console.ReadLine());
+    double b5 = double.Parse(Console.ReadLine());
 
     Console.Write("Podaj trzecią liczbę: ");
-    double c = Convert.ToDouble(Console.ReadLine());
+    double c5 = double.Parse(Console.ReadLine());
 
     // Sprawdzenie nierówności trójkąta
-    if (a + b > c && a + c > b && b + c > a)
+    if (a5 + b5 > c5 && a5 + c5 > b5 && b5 + c5 > a5)
     {
       Console.WriteLine("TAK");
     }
