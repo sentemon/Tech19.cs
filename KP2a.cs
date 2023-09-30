@@ -59,5 +59,15 @@ public class Program {
     }
 
     // zadanie 4
+    Console.WriteLine("Wprowadź cztery liczby: ");
+    int number1 = int.Parse(Console.ReadLine());
+    int number2 = int.Parse(Console.ReadLine());
+    int number3 = int.Parse(Console.ReadLine());
+    int number4 = int.Parse(Console.ReadLine());
+
+    int minNumber = Math.Min(Math.Min(number1, number2), Math.Min(number3, number4));
+
+    Console.WriteLine("Najmniejsza liczba z podanych: " + minNumber);
+    
   }
 }
