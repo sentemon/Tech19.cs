@@ -68,6 +68,26 @@ public class Program {
     int minNumber = Math.Min(Math.Min(number1, number2), Math.Min(number3, number4));
 
     Console.WriteLine("Najmniejsza liczba z podanych: " + minNumber);
+
+    // zadanie 5
+    Console.Write("Podaj pierwszą liczbę: ");
+    double a = Convert.ToDouble(Console.ReadLine());
+
+    Console.Write("Podaj drugą liczbę: ");
+    double b = Convert.ToDouble(Console.ReadLine());
+
+    Console.Write("Podaj trzecią liczbę: ");
+    double c = Convert.ToDouble(Console.ReadLine());
+
+    // Sprawdzenie nierówności trójkąta
+    if (a + b > c && a + c > b && b + c > a)
+    {
+      Console.WriteLine("TAK");
+    }
+    else
+    {
+      Console.WriteLine("NIE");
+    }
     
   }
 }
