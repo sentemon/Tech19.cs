@@ -59,5 +59,6 @@ public class Program {
     int b7 = int.Parse(Console.ReadLine());
     int zadanie7 = a7 % b7;
     Console.WriteLine("Zadanie 7: " + zadanie7);
+    // test
   }
 }
