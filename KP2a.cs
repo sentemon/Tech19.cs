@@ -141,6 +141,5 @@ public class Program {
     {
       Console.WriteLine("Z podanych długości nie można zbudować trójkąta.");
     }
-    // wsystkie zadanie skończone
   }
 }
