@@ -112,6 +112,35 @@ public class Program {
     {
       Console.WriteLine("NIE");
     }
+    // zadanie 6
+    Console.WriteLine("Podaj długość pierwszego boku: ");
+    double a = Convert.ToDouble(Console.ReadLine());
     
+    Console.WriteLine("Podaj długość drugiego boku: ");
+    double b = Convert.ToDouble(Console.ReadLine());
+
+    Console.WriteLine("Podaj długość trzeciego boku: ");
+    double c = Convert.ToDouble(Console.ReadLine());
+
+    if (a + b > c && a + c > b && b + c > a) // Sprawdzamy, czy można zbudować trójkąt na podstawie nierówności trójkąta.
+    {
+      if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a) // Sprawdzamy, czy trójkąt jest prostokątny na podstawie twierdzenia Pitagorasa.
+      {
+        Console.WriteLine("Trójkąt jest prostokątny.");
+      }
+      else if (a * a + b * b < c * c || a * a + c * c < b * b || b * b + c * c < a * a) // Sprawdzamy, czy trójkąt jest rozwartokątny na podstawie długości boków.
+      {
+        Console.WriteLine("Trójkąt jest rozwartokątny."); 
+      }
+      else // Jeśli nie jest ani prostokątny, ani rozwartokątny, to jest ostrokątny.
+      {
+        Console.WriteLine("Trójkąt jest ostrokątny.");
+      }
+    }
+    else // Jeśli nie spełnia warunków nierówności trójkąta, nie można zbudować trójkąta.
+    {
+      Console.WriteLine("Z podanych długości nie można zbudować trójkąta.");
+    }
+    // wsystkie zadanie skończone
   }
 }
