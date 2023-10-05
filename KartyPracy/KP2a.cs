@@ -114,13 +114,13 @@ public class Program {
     }
     // zadanie 6
     Console.WriteLine("Podaj długość pierwszego boku: ");
-    double a = Convert.ToDouble(Console.ReadLine());
+    double a = double.Parse(Console.ReadLine());
     
     Console.WriteLine("Podaj długość drugiego boku: ");
-    double b = Convert.ToDouble(Console.ReadLine());
+    double b = double.Parse(Console.ReadLine());
 
     Console.WriteLine("Podaj długość trzeciego boku: ");
-    double c = Convert.ToDouble(Console.ReadLine());
+    double c = double.Parse(Console.ReadLine());
 
     if (a + b > c && a + c > b && b + c > a) // Sprawdzamy, czy można zbudować trójkąt na podstawie nierówności trójkąta.
     {
