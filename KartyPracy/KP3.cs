@@ -2,20 +2,39 @@ using System;
 
 public class Program {
 
-    public static void Main(string[] args) {
-        // zadanie 1
-        for (int i = 0; i < n; i++)
-		{
-            Console.WriteLine(Math.Pow(i, 3) + 3);
-        }
-
-        // zadanie 2
-        for (int i = 100; i < 1000; i++)
-		{
-            if (i % 15 == 0)
-			{
-                Console.WriteLine(i);
-            }
-        }
+  public static void Main(string[] args) {
+    // Zadanie 1
+    Console.WriteLine("Zadanie 1: Wprowadź liczbę n: ");
+    int n1 = int.Parse(Console.ReadLine());
+    Console.Write("Wynik zadania 1: ");
+    for (int i = 0; i < n1; i++)
+    {
+      Console.Write(Math.Pow(i, 3) + 3 + " ");
     }
+    Console.WriteLine();
+
+    // Zadanie 2
+    Console.Write("Wynik zadania 2: ");
+    for (int i = 100; i < 1000; i++)
+    {
+      if (i % 15 == 0)
+      {
+        Console.Write(i + " ");
+      }
+    }
+    Console.WriteLine();
+
+    // Zadanie 3
+    Console.WriteLine("Zadanie 3: Wprowadź liczbę n: ");
+    int n3 = int.Parse(Console.ReadLine());
+    Console.Write("Wynik zadania 3: ");
+    for (int i = 1; i <= n3; i++)
+    {
+      if (n3 % i == 0)
+      {
+        Console.Write(i + " ");
+      }
+    }
+    Console.WriteLine();
+  }
 }
