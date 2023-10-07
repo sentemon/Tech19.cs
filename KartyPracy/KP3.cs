@@ -35,6 +35,14 @@ public class Program {
         Console.Write(i + " ");
       }
     }
-    Console.WriteLine();
+
+    // Zadanie 4
+    int count = 0;
+
+    for (int i = 10; i < 100; i++)
+    {
+      count += i;
+    }
+    Console.WriteLine("Wynik zadania 3: " + count);
   }
 }
