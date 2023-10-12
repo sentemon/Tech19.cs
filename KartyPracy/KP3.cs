@@ -46,6 +46,17 @@ public class Program {
     Console.WriteLine("Wynik zadania 3: " + count);
 
     // Zadanie 5
+    int n = int.Parse(Console.ReadLine());
+    int suma = n*(n + 1) / 2;
+    int liczba = 0;
+    
+    for (int i = 0; i < n-1; i++)
+    {
+      liczba = int.Parse(Console.ReadLine());
+      suma = suma - liczba;
+    }
+    
+    Console.WriteLine(suma);
 
     // Zadanie 6
     int a = 1;
