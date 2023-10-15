@@ -8,5 +8,11 @@ public class Program {
     {
       Console.Write(i + " ");
     }
+    // Zadanie 2
+    int n = int.Parse(Console.ReadLine());
+    for (int i = 1; i < n; i+=2)
+    {
+      Console.Write(i*i + " ");
+    }
   }
 }
