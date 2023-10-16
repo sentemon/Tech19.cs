@@ -37,5 +37,25 @@ public class Program {
         Console.Write(i + " ");
       } 
     }
+    
+    // Zadanie 5
+    int n = int.Parse(Console.ReadLine());
+    int num;
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+      num = int.Parse(Console.ReadLine());
+      count += num;
+    }
+    Console.Write("SUMA: " + count);
+    // Zadanie 6
+
+    // Zadanie 7
+
+    // Zadanie 8
+
+    // Zadanie 9
+
+    // Zadanie 10
   }
 }
