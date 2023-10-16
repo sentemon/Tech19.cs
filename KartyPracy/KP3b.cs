@@ -14,8 +14,17 @@ public class Program {
     {
       if (i % 2 != 0)
       {
-        Console.Write(i*i + " ");
+        Console.Write(i * i + " ");
       }
+      else
+      { 
+        n++;
+      }
+    }
+    // Zadanie 3
+    for (int i = 1137; i < 10000; i+=379)
+    {
+      Console.Write(i + " ");
     }
   }
 }
