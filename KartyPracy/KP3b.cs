@@ -49,7 +49,17 @@ public class Program {
     }
     Console.Write("SUMA: " + count);
     // Zadanie 6
+    int k = int.Parse(Console.ReadLine());
+    int sum = 0;
 
+    for (int i = 1; i <= k; i++)
+    {
+      if (i % 2 == 0)
+      {
+        sum += i;
+      }
+    }
+    Console.WriteLine("Suma: " + sum);
     // Zadanie 7
 
     // Zadanie 8
