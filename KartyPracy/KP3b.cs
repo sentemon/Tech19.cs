@@ -48,24 +48,39 @@ public class Program {
       count += num;
     }
     Console.Write("SUMA: " + count);
+    
     // Zadanie 6
     int k = int.Parse(Console.ReadLine());
     int sum = 0;
 
-    for (int i = 1; i <= k; i++)
+    for (int i = 2; i <= k; i+=2)
     {
-      if (i % 2 == 0)
-      {
-        sum += i;
-      }
+      sum += i;
     }
     Console.WriteLine("Suma: " + sum);
+    
     // Zadanie 7
+    int m = int.Parse(Console.ReadLine());
+    int sum = 0;
 
+    for (int i = 11; i <= m; i += 2)
+    {
+        sum += i;
+    }
+    Console.WriteLine("Suma: " + sum);
+    
     // Zadanie 8
 
     // Zadanie 9
-
+    int n = int.Parse(Console.ReadLine());
+    int sum = 0;
+    
+    for (int i = 21, count = 0; count < n; i += 100, count++)
+    {
+        sum += i;
+    }
+    Console.WriteLine("Suma: " + sum);
+    
     // Zadanie 10
   }
 }
