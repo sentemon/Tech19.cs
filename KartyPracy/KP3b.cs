@@ -70,7 +70,23 @@ public class Program {
     Console.WriteLine("Suma: " + sum);
     
     // Zadanie 8
+    Console.WriteLine("Wprowadź kwotę inwestycji: ");
+    double W0 = double.Parse(Console.ReadLine());
 
+    Console.WriteLine("Wprowadź okres inwestycji w latach: ");
+    double L = double.Parse(Console.ReadLine());
+
+    double rate = 0.06 / 12; // Miesięczna stopa procentowa
+
+    int months = (int)(L * 12); // Okres inwestycji w miesiącach
+    double wartosc = W0;
+
+    for (int i = 0; i < months; i++)
+    {
+        wartosc += wartosc * rate;
+    }
+    Console.WriteLine(Math.Round(wartosc, 2));
+    
     // Zadanie 9
     int n = int.Parse(Console.ReadLine());
     int sum = 0;
