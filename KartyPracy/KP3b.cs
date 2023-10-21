@@ -97,6 +97,13 @@ public class Program {
     }
     Console.WriteLine("Suma: " + sum);
     
-    // Zadanie 10
+    // Zadanie 10    
+    for (int i = 1; i <= 1000; i++)
+    {
+      if (i % 10 == Math.Sqrt(i) || i % 100 == Math.Sqrt(i))
+      {
+        Console.Write(i + " ");
+      }
+    }
   }
 }
