@@ -11,5 +11,21 @@ public class Program {
     {
       Console.Write("∗ − | ");
     }
+    
+    // Zadanie 2
+    Console.Write("Wprowadź liczbę n: ");
+    int n = int.Parse(Console.ReadLine());
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            Console.Write("∗");
+        }
+        if (i < n)
+        {
+            Console.Write("||");
+        }
+    }
   }
 }
