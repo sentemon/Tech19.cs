@@ -1,3 +1,4 @@
+// Karta Pracy nr 3
 using System;
 
 public class Program {

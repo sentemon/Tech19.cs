@@ -1,3 +1,4 @@
+// Karta Pracy nr 3b
 using System; 
 
 public class Program {
