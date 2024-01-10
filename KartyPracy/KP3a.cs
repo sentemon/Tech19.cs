@@ -47,5 +47,23 @@ public class Program {
             Console.Write("−−");
         }
     }
+
+    // Zadanie 4
+    Console.Write("Wprowadź liczbę n: ");
+    int n = int.Parse(Console.ReadLine());
+
+    // Zadanie 5
+    Console.Write("Wprowadź liczbę n: ");
+    int n = int.Parse(Console.ReadLine());
+
+    // Zadanie 6
+    Console.Write("Wprowadź liczbę n: ");
+    int n = int.Parse(Console.ReadLine());
+
+
+    // Zadanie 7
+    Console.Write("Wprowadź liczbę n: ");
+    int n = int.Parse(Console.ReadLine());
+
   }
 }
