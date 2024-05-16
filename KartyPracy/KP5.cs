@@ -3,27 +3,28 @@ using System;
 
 class Program
 {
+    public static bool IsPrime(int n)
+        {
+            if (n < 2)
+                return false;
+
+            for (int i = 2; i * i <= n; i++)
+                if (n % i == 0)
+                    return false;
+
+            return true;
+        }
     public static int zadanie1()
     {
-        static bool isPrime(num)
-        {
-            
-        }
         int sum = 0;
         
         for (int i = 10; i < 100; i++)
-        {
-            for (int j = 1; j < i; j++)
-            {
-                if (j % i != 0)
-                {
-                    sum += j;
-                }
-            }
-        }
+            if (IsPrime(i))
+                sum += i;
 
         return sum;
     }
+
 
     public static void Main(string[] args)
     {
